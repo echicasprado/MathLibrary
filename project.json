@@ -1,0 +1,103 @@
+{
+  "name": "MathLabrary",
+  "description": "Make library with simple math operations\r\nAdd test suit\r\nUse public xaml and private xaml",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "22.10.5",
+    "UiPath.Testing.Activities": "23.4.0"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "Math/Sum_2.xaml",
+        "Math/Private/Sum_2.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8b86273a-a686-4b6e-9207-a6fbcf6015a3",
+        "dataVariationFilePath": ".variations\\Rest.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestSuit\\Math\\TestCase_Sum2.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "03371c47-84a7-4b9e-b000-d25c7670b61f",
+        "dataVariationFilePath": ".variations\\Rest.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestSuit\\Math\\TestCase_Sum.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0a73565e-3662-4913-9c6a-3f86440b8060",
+        "dataVariationFilePath": ".variations\\Rest.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestSuit\\Math\\TestCase_Rest.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f1ad6083-abfb-4662-82b1-9b887a5e7612",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestSuit\\Math\\TestCase_PI.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "19fd0961-e065-45b7-b8de-235217bf4c32",
+        "dataVariationFilePath": ".variations\\Rest.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestSuit\\Math\\TestCase_Multiplication.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e0ae1b3d-8736-48a6-8f24-7e63401de82f",
+        "dataVariationFilePath": ".variations\\Rest.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestSuit\\Math\\TestCase_Division.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/Slide1.jpg"
+  },
+  "targetFramework": "Windows"
+}
